@@ -1,6 +1,6 @@
 # Pretty File Size
 
-A tiny file-size formatter, with no dependencies.
+A tiny file-size formatter with no external dependencies.
 
 It's based on the SI definition of file sizes, so `1 kB = 1024 B`
 
@@ -22,7 +22,11 @@ import formatFileSize from 'pretty-file-size';
 prettyFileSize(34892075);
 // > 33.3 MB
 
-prettyFileSize(245)).toEqual('245 B')
+prettyFileSize(245);
+// > 245 B
+
+prettyFileSize(6000);
+// > 5.9 kB
 ```
 
 ## API
