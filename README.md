@@ -45,4 +45,6 @@ Default: `1`
 
 ## License
 
-MIT © [Tobias Herber](https://herber.space)
+MIT © [Tobias Herber](https://github.com/herber)
+
+[![Made by Varld](https://potato.varld.co/oss/badge.svg)](https://varld.co)
